@@ -1,5 +1,7 @@
-<H3> Experiment 1</H3>
+<H3> Name : Yuvarani  T </H3>
+<H3> Register No : 212222110057 </H3>
 <H3>DATE:</H3>
+<H3> Experiment 1</H3>
 <H1 ALIGN=CENTER> Implementation of Bayesian Networks</H1>
 
 ## Aim :
@@ -7,18 +9,31 @@
     
 ## Algorithm:
 Step 1:Import necessary libraries: pandas, networkx, matplotlib.pyplot, Bbn, Edge, EdgeType, BbnNode, Variable, EvidenceBuilder, InferenceController<br/>
+
 Step 2:Set pandas options to display more columns<br/>
+
 Step 3:Read in weather data from a CSV file using pandas<br/>
+
 Step 4:Remove records where the target variable RainTomorrow has missing values<br/>
+
 Step 5:Fill in missing values in other columns with the column mean<br/>
+
 Step 6:Create bands for variables that will be used in the model (Humidity9amCat, Humidity3pmCat, and WindGustSpeedCat)<br/>
+
 Step 7:Define a function to calculate probability distributions, which go into the Bayesian Belief Network (BBN)<br/>
+
 Step 8:Create BbnNode objects for Humidity9amCat, Humidity3pmCat, WindGustSpeedCat, and RainTomorrow, using the probs() function to calculate their probabilities<br/>
+
 Step 9:Create a Bbn object and add the BbnNode objects to it, along with edges between the nodes<br/>
+
 Step 10:Convert the BBN to a join tree using the InferenceController<br/>
+
 Step 11:Set node positions for the graph<br/>
+
 Step 12:Set options for the graph appearance<br/>
+
 Step 13:Generate the graph using networkx<br/>
+
 Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
@@ -111,19 +126,12 @@ ax.margins(0.10)
 plt.axis("off")
 plt.show()
 ```
-###  Name : Yuvarani  T
-### Register No : 212222110057
 
 ## Output:
-![image](https://github.com/user-attachments/assets/29406eb1-c9f9-4cd3-a9dd-666e2b6ff28f)
-
-![image](https://github.com/user-attachments/assets/6083eb53-47ea-448e-a550-e352949de9af)
-
-![image](https://github.com/user-attachments/assets/fe44dcc2-8f77-4101-b806-4de615da16cb)
 
 ![image](https://github.com/user-attachments/assets/a964e28c-cfc3-4038-8d20-9965223cec98)
 
 
 ## Result:
-   Thus a Bayesian Network is generated using Python
+   Thus a Bayesian Network is generated using Python.
 
